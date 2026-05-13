@@ -65,3 +65,47 @@ print ("Valor:" , numero_complexo)
 print ("Tipo:" , type(numero_complexo))
 
 print ("--------------------------------------------------------")
+
+#EXEMPLO 04 - ACESSANDO CADA PARTE DO NÚMERO
+
+#.real retorna a parte real
+print("Parte Real: ", numero_complexo.real)
+
+#.imag RETORNA A PARTE IMAGINÁRIA
+print("Parte imaginária:", numero_complexo.imag)
+#apenas para separar visualmente no terminal 
+print("\n")
+
+#===============================
+## passo 02 - conversão tipos 
+#===============================
+
+#exemplo classico
+##dados vindos do usuário são texto (string), muitas vezes é necessario converter eles.
+
+print ("===== Conversões =====")
+
+# float -> int
+
+valor = int(3.9)
+print ("int(3.9):", valor)
+print ("tipo:", type(valor))
+
+print ("--------------------------------------------")
+
+#string -> int
+
+valor1 = "10"
+print (type(valor1))
+
+valor2 = int ("10")
+print('int ("10"):', valor2)
+print ("tipo: ", type(valor2))
+
+print ("--------------------------------------------")
+
+#int -> float
+
+valor3= float(10)
+print ("float (10): ", valor3)
+print ("tipo: ", type(valor3))
